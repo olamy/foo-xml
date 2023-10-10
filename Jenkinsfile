@@ -1,4 +1,8 @@
 pipeline {
+  options {
+    mavenCache()
+    
+  }  
   agent any
   stages {
     stage("Build") {
