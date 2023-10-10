@@ -1,6 +1,6 @@
 pipeline {
   options {
-    mavenCache()
+    mavenCache(enable: true)
     
   }  
   agent any
